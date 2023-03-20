@@ -24,12 +24,7 @@ public class ArrayListExample
       // print size
       System.out.println("Size:" + animalList.size());
       
-      // isplaying elements
-      System.out.println(animalList);
-      
-      /* your code here */ 
-      
       // display elements
-      System.out.println(animalList);
+      System.out.println(animalList); 
    }  
 }
