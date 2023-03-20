@@ -14,8 +14,7 @@ public class Book
     { 
     return price; 
     } 
-    /** Decreases book price by the given amount byPercent 
-    */ 
+    // part B - decreases price by given byPercent
     public void giveDiscount(double byPercent) 
     {
         price = price * (1-byPercent);
