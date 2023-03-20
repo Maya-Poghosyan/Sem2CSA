@@ -67,8 +67,5 @@ public class ArrayListProgram {
             String newFood = scan6.nextLine();
             foods.set(position-1,newFood);
         }
-
-
-    }
-    
+    }   
 }
