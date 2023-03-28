@@ -18,6 +18,8 @@ public class InheritedPet
     myDog.walk();
     myDog.eat();
     myDog.sleep();
+    Kitten myKitty = new Kitten();
+    myKitty.meow();
 
   }
 }
