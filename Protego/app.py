@@ -23,5 +23,4 @@ def display_contacts():
       c2n = result["c2n"]
       c3l = result["c3l"]
       c3n = result["c3n"]
-      return(result)
-   return render_template("contacts.html", name1 =c1l, num1 =c1n, name2=c2l, num2=c2n, name3=c3l, num3=c3n)
+      return render_template("contacts.html", name1 =c1l, num1 =c1n, name2=c2l, num2=c2n, name3=c3l, num3=c3n), result
